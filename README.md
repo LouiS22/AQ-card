@@ -1,4 +1,4 @@
-# Air Quality Card
+# Indoor Air Quality Card
 
 [![Release][release-shield]][release-link] [![HACS][hacs-shield]][hacs-link] [![GitHub Activity][commits-shield]][commits-link]
 

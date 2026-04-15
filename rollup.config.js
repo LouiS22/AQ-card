@@ -5,12 +5,12 @@ import replace from '@rollup/plugin-replace';
 const BUILD_TIMESTAMP = new Date().toISOString().replace(/[:.T]/g, '-').substring(0, 16);
 
 export default {
-  input: 'src/air-quality-card.js',
+  input: 'src/aq-card.js',
   output: {
-    file: 'dist/air-quality-card.js',
+    file: 'dist/aq-card.js',
     format: 'iife',
     sourcemap: true,
-    name: 'AirQualityCard',
+    name: 'IndoorAirQualityCard',
     generatedCode: 'es2015',
   },
   plugins: [
