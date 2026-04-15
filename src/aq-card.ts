@@ -36,7 +36,7 @@ export class AirQualityCard extends MonitorCardBase {
   static SENSORS: SensorsRegistry = AIR_QUALITY_SENSORS;
 
   static IMAGE_BASE_URL =
-    'https://raw.githubusercontent.com/LouiS22/aq-card/master/resources';
+    'https://raw.githubusercontent.com/LouiS22/AQ-card/master/resources';
 
   static async getConfigElement(): Promise<HTMLElement> {
     await import('./editor.js');
