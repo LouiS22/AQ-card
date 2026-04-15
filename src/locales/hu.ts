@@ -1,11 +1,11 @@
 export default {
   state: {
-    1: 'Túl alacsony',
+    1: 'Nagyon alacsony',
     2: 'Elfogadhatóan alacsony',
     3: 'Ideális',
     4: 'Ideális',
     5: 'Elfogadhatóan magas',
-    6: 'Túl magas',
+    6: 'Nagyon magas',
   },
   sensor: {
     temperature: 'Hőmérséklet',
