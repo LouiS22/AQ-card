@@ -24,7 +24,7 @@ console.info(
   documentationURL: 'https://github.com/wilsto/air-quality-card',
 });
 
-@customElement('air-quality-card')
+@customElement('aq-card')
 export class AirQualityCard extends MonitorCardBase {
   static CARD_INFO: CardInfo = {
     cardType: 'air-quality-card',
