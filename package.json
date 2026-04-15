@@ -1,9 +1,9 @@
 {
-  "name": "air-quality-card",
+  "name": "aq-card",
   "version": "0.8.1",
   "type": "module",
-  "description": "Air Quality Card for Home Assistant",
-  "main": "dist/air-quality-card.js",
+  "description": "Indoor Air Quality Card for Home Assistant",
+  "main": "dist/aq-card.js",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c --watch",
