@@ -1,7 +1,7 @@
 import type { TranslationSet } from '../ha/types.js';
 
 import en from './en.js';
-import fr from './fr.js';
+import hu from './hu.js';
 import es from './es.js';
 import de from './de.js';
 import it from './it.js';
@@ -12,13 +12,13 @@ import ro from './ro.js';
 import sk from './sk.js';
 import he from './he.js';
 import ru from './ru.js';
-import hu from './hu.js';
+import fr from './fr.js';
 import sv from './sv.js';
 import cs from './cs.js';
 
 export const translations: Record<string, TranslationSet> = {
   en,
-  fr,
+  hu,
   es,
   de,
   it,
@@ -29,7 +29,7 @@ export const translations: Record<string, TranslationSet> = {
   sk,
   he,
   ru,
-  hu,
+  fr,
   sv,
   cs,
 };
