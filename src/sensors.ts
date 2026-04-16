@@ -75,7 +75,7 @@ export const AIR_QUALITY_SENSORS: SensorsRegistry = {
   aqi: {
     name: 'Air Quality Index',
     unit: 'AQI',
-    setpoint: 0,
+    setpoint: 50,
     step: 25,
     mode: 'centric',
     min_limit: 0,

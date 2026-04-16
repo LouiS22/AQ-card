@@ -19,7 +19,6 @@ export const DISPLAY_SCHEMA: HaFormSchema[] = [
       select: {
         options: [
           { value: 'en', label: 'English' },
-          { value: 'hu', label: 'Magyar' },
           { value: 'fr', label: 'Français' },
           { value: 'de', label: 'Deutsch' },
           { value: 'es', label: 'Español' },
