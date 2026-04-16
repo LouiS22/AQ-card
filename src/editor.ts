@@ -5,7 +5,7 @@ import '../../core/src/editor/sensor-editor.js';
 import { AIR_QUALITY_SENSORS } from './sensors.js';
 import type { SensorsRegistry } from './ha/types.js';
 
-@customElement('air-quality-card-editor')
+@customElement('aq-card-editor')
 export class AirQualityCardEditor extends MonitorEditorBase {
   get sensorsRegistry(): SensorsRegistry {
     return AIR_QUALITY_SENSORS;
