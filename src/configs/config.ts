@@ -8,7 +8,7 @@ export const DEFAULT_DISPLAY: DisplayConfig = {
   show_icons: true,
   show_units: true,
   gradient: true,
-  language: 'en',
+  language: 'hu',
 };
 
 export const DEFAULT_COLORS: ColorConfig = {
